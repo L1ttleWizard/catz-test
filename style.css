@@ -1,8 +1,15 @@
 .cat-1,.cat-2{
-    height:512px;
-    width:512px;
+    height:530px;
+    width:530px;
     overflow: hidden;
+    border:none;
 }
+iframe.cat-1 html, iframe.cat-2 html{
+    overflow:hidden;
+
+}
+
+
 main{
     display:flex;
     flex-direction:row;
@@ -16,6 +23,17 @@ main{
     row-gap: 5px;
 }
 button{
-    
+    height:5%;
     width:80%;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+button:hover{
+    background-color:black;
+    color:white;
+    transform:scale3d(1.1, 1.1, 1.1);
+    
+}
+body{
+    background-color:rgba(26, 20, 114, 0.473);
 }
