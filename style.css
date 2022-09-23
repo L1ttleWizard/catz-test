@@ -35,5 +35,7 @@ button:hover{
     
 }
 body{
+    
+    user-select: none;
     background-color:rgba(26, 20, 114, 0.473);
 }
