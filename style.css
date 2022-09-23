@@ -1,0 +1,21 @@
+.cat-1,.cat-2{
+    height:512px;
+    width:512px;
+    overflow: hidden;
+}
+main{
+    display:flex;
+    flex-direction:row;
+    column-gap:20px;
+    
+}
+.wrap{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+}
+button{
+    
+    width:80%;
+}
